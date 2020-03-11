@@ -1,0 +1,18 @@
+---
+title: "Load data"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+```
+
+```{r}
+patient_df <- read_csv('https://raw.githubusercontent.com/jihoo-kim/Coronavirus-Dataset/master/patient.csv')
+group_df <- read_csv('https://raw.githubusercontent.com/jihoo-kim/Coronavirus-Dataset/master/group.csv')
+trend_df <- read_csv('https://raw.githubusercontent.com/jihoo-kim/Coronavirus-Dataset/master/trend.csv')
+route_df <- read_csv('https://raw.githubusercontent.com/jihoo-kim/Coronavirus-Dataset/master/route.csv')
+time_df <- read_csv('https://raw.githubusercontent.com/jihoo-kim/Coronavirus-Dataset/master/time.csv')
+
+```
+
